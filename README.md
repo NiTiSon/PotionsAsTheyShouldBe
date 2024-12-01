@@ -1,6 +1,8 @@
+<div style="text-align: center;">
+
 # Potions As They Should Be
 
-<div style="text-align: center;">
+---
 
 Minecraft mod improving potion aspect of the game.
 
@@ -13,7 +15,11 @@ Minecraft mod improving potion aspect of the game.
 Improves player experience with potions:
 + Makes Potions stackable to 3
 
-### TODO list
+## FAQ
+**Q:** Can I use this mod on my modpack?  
+**A:** Yes
+
+## TODO list
 + [ ] Add support for Cloth Config
 + [ ] Add ability to combine potions some way
 + [ ] Upload on CurseForge
