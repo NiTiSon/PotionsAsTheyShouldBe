@@ -8,7 +8,7 @@ Minecraft mod improving potion aspect of the game.
 
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/patsb?style=flat&logo=modrinth&label=Downloads)](https://modrinth.com/project/patsb)
 
-[![Enviroment](https://img.shields.io/badge/Enviroment-Client-purple?logo=server)](https://modrinth.com/mods?e=client)
+[![Enviroment](https://img.shields.io/badge/Enviroment-Both-blue?style=flat)](https://modrinth.com/mods?e=client&e=server)
 
 </div>
 
