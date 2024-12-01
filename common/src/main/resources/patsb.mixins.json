@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "nitis.dev.patsb.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "PotionsContentsInjector"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
