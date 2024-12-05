@@ -1,3 +1,17 @@
 {
+  "text.autoconfig.patsb.category.default": "Default",
+  "text.autoconfig.patsb.option.potionMaxStackValue": "Max Potion Stack Size",
+  "text.autoconfig.patsb.option.potionMaxStackValue.@Tooltip": "The maximum size for potion stacks.",
 
+  "text.autoconfig.patsb.category.combination": "Potion Mixing",
+  "text.autoconfig.patsb.option.potionMixEnabled": "Enable Potion Mixing",
+  "text.autoconfig.patsb.option.potionMixEnabled.@Tooltip": "Turn on ability to combine potions.",
+  "text.autoconfig.patsb.option.mixedPotionColorBehaviour": "Mixed Potion Color",
+  "text.autoconfig.patsb.option.mixedPotionColorBehaviour.@Tooltip": "Way to compute color of mixed potions. Does not affect already mixed potions.",
+  "text.autoconfig.patsb.option.fixedMixedPotionColor": "Fixed Mixed Potion Color",
+  "text.autoconfig.patsb.option.fixedMixedPotionColor.@Tooltip": "The color of mixed potion. Used when Fixed Color mode is set.",
+
+  "text.autoconfig.patsb.PotionMixBehaviour.EQUAL_CONTRIBUTION": "Equal Contribution",
+  "text.autoconfig.patsb.PotionMixBehaviour.PROPORTIONAL_CONTRIBUTION": "Proportional Contribution",
+  "text.autoconfig.patsb.PotionMixBehaviour.FIXED_COLOR": "Fixed Color"
 }

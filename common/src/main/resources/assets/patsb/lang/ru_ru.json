@@ -1,0 +1,17 @@
+{
+  "text.autoconfig.patsb.category.default": "Главное",
+  "text.autoconfig.patsb.option.potionMaxStackValue": "Стак зелий",
+  "text.autoconfig.patsb.option.potionMaxStackValue.@Tooltip": "Максимальное количество зелий в стаке.",
+
+  "text.autoconfig.patsb.category.combination": "Смешение зелий",
+  "text.autoconfig.patsb.option.potionMixEnabled": "Разрешить совмещать зелья",
+  "text.autoconfig.patsb.option.potionMixEnabled.@Tooltip": "Включает возможность совмещений зелий.",
+  "text.autoconfig.patsb.option.mixedPotionColorBehaviour": "Цвет совмещённого зелья",
+  "text.autoconfig.patsb.option.mixedPotionColorBehaviour.@Tooltip": "Каким образом будет просчитываться цвет выходного зелья.",
+  "text.autoconfig.patsb.option.fixedMixedPotionColor": "Фиксированный цвет совмещённого зелья",
+  "text.autoconfig.patsb.option.fixedMixedPotionColor.@Tooltip": "Фиксированный цвет совмещённого зелья. Используется когда задан режим Определённого цвета.",
+
+  "text.autoconfig.patsb.PotionMixBehaviour.EQUAL_CONTRIBUTION": "Равное распределение",
+  "text.autoconfig.patsb.PotionMixBehaviour.PROPORTIONAL_CONTRIBUTION": "Пропорциональное распределение",
+  "text.autoconfig.patsb.PotionMixBehaviour.FIXED_COLOR": "Определённый цвет"
+}

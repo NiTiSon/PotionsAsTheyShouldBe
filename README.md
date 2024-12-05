@@ -20,6 +20,6 @@ Improves player experience with potions:
 **A:** Yes
 
 ## TODO list
-+ [ ] Add support for Cloth Config
++ [x] Add support for Cloth Config
 + [ ] Add ability to combine potions some way
 + [ ] Upload on CurseForge

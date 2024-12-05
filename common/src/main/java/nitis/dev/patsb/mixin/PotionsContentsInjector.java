@@ -6,6 +6,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.alchemy.Potion;
 import net.minecraft.world.item.alchemy.PotionContents;
+import nitis.dev.patsb.PotionsAsTheyShouldBe;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -15,6 +16,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public class PotionsContentsInjector {
     @Inject(method = "createItemStack", at = @At("TAIL"))
     private static void createItemStack(Item item, Holder<Potion> holder, CallbackInfoReturnable<ItemStack> cir) {
-        cir.getReturnValue().set(DataComponents.MAX_STACK_SIZE, 3);
+        cir.getReturnValue().set(DataComponents.MAX_STACK_SIZE, PotionsAsTheyShouldBe.config.potionMaxStackValue);
     }
 }
