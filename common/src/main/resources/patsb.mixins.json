@@ -6,6 +6,7 @@
   "client": [
   ],
   "mixins": [
+    "BrewingStandBlockEntityMixin",
     "PotionsContentsInjector"
   ],
   "injectors": {
