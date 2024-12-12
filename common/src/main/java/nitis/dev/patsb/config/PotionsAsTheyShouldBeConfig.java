@@ -13,6 +13,7 @@ public class PotionsAsTheyShouldBeConfig implements ConfigData {
     @BoundedDiscrete(min = 1, max = 64) // Strict 1..64 bounds: values out of this bounds cause Exceptions during game
     public int potionMaxStackValue = 3;
 
+    /* WHEN COMBINATION WILL BE ADDED
     @Category("combination")
     @Tooltip
     public boolean potionMixEnabled = true;
@@ -24,5 +25,6 @@ public class PotionsAsTheyShouldBeConfig implements ConfigData {
     @Tooltip
     @ColorPicker
     public int fixedMixedPotionColor = 0xFF0000;
+     */
 }
 
