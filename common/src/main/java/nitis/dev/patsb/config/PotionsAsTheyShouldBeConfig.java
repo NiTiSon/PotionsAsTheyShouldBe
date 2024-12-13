@@ -26,5 +26,8 @@ public class PotionsAsTheyShouldBeConfig implements ConfigData {
     @ColorPicker
     public int fixedMixedPotionColor = 0xFF0000;
      */
+
+    @Excluded
+    public static final PotionsAsTheyShouldBeConfig DEFAULT = new PotionsAsTheyShouldBeConfig();
 }
 

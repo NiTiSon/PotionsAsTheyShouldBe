@@ -16,6 +16,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public class PotionsContentsInjector {
     @Inject(method = "createItemStack", at = @At("TAIL"))
     private static void createItemStack(Item item, Holder<Potion> holder, CallbackInfoReturnable<ItemStack> cir) {
-        cir.getReturnValue().set(DataComponents.MAX_STACK_SIZE, PotionsAsTheyShouldBe.config.potionMaxStackValue);
+        cir.getReturnValue().set(DataComponents.MAX_STACK_SIZE, PotionsAsTheyShouldBe.getConfig().potionMaxStackValue);
     }
 }
