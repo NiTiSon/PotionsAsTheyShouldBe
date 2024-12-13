@@ -1,5 +1,6 @@
 {
   "text.autoconfig.patsb.category.default": "Default",
+  "text.autoconfig.patsb.title": "Potions As They Should Be",
   "text.autoconfig.patsb.option.potionMaxStackValue": "Max Potion Stack Size",
   "text.autoconfig.patsb.option.potionMaxStackValue.@Tooltip": "The maximum size for potion stacks.",
 
